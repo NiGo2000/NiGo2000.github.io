@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "NicK Göhlert Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "hhathttp://NiGo2000.github.io",
   },
 };
 
@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/17kNwSbk8-jAzLQWRXbZ0znvWkwsYeBLv/view?usp=sharing",
-  portfolio_repository: "https://github.com/NiGo2000/NiGo2000.github.io",
+  portfolio_repository: "https://github.com/NiGo2000/",
 };
 
 const socialMediaLinks = [
@@ -83,7 +83,7 @@ const skills = {
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "logos:python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -95,9 +95,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building website using HTML, CSS and JavaScript",
+        "⚡ Developing applications using Python, Java and C#",
+        "⚡ Creating mobile application with Flutter",
       ],
       softwareSkills: [
         {
@@ -118,31 +118,27 @@ const skills = {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            backgroundColor: "#000000",
             color: "#F7DF1E",
           },
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "logos:python",
           style: {
-            backgroundColor: "#000000",
             color: "#F7DF1E",
           },
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "logos:java",
           style: {
-            backgroundColor: "#000000",
             color: "#F7DF1E",
           },
         },
         {
           skillName: "C#",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "logos:c-sharp",
           style: {
-            backgroundColor: "#000000",
             color: "#F7DF1E",
           },
         },
@@ -163,12 +159,12 @@ const competitiveSites = {
   competitiveSites: [
     /*
     {
-    siteName: "HackerRank",
+    siteName: "Site Name",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/",
     },
     */
   ],
@@ -195,19 +191,20 @@ const certifications = {
   certifications: [
     {
       title: "Blockchain",
-      subtitle: "- Nick Göhlert",
-      logo_path: "stanford_logo.png",
+      subtitle: "- Hochschule Mittweida",
+      logo_path: "hsmw_logo.jpg",
       certificate_link:
         "https://drive.google.com/file/d/1CSWPDtL2TcDRO0El7m1x-TpWjyf5Gfbc/view?usp=sharing",
-      alt_name: "Stanford University",
+      alt_name: "Hochschule Mittweida",
       color_code: "#8C151599",
     },
     {
       title: "Deep Learning",
-      subtitle: "- Nick Göhlert",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link: "",
-      alt_name: "deeplearning.ai",
+      subtitle: "- Hasso-Plattner-Institut",
+      logo_path: "hpi_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1Ufwpbo25DC-8mjWc66zZdxrTnsuuQ-gU/view?usp=sharing",
+      alt_name: "Hasso-Plattner-Institut",
       color_code: "#00000099",
     },
   ],
@@ -217,8 +214,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  description: "On this page you can see my past internships and jobs.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -226,14 +222,14 @@ const experience = {
       experiences: [
         /*
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
+          title: "Job",
+          company: "Company Name",
+          company_url: "url",
+          logo_path: "logo.png",
           duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          location: "Germany, Chemnitz",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "",
           color: "#0879bf",
         },
         */
@@ -243,26 +239,25 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Quality Management Intern",
+          company: "Anchor Lamina GmbH",
+          company_url: "https://anchor-lamina.de/",
+          logo_path: "anchor_lamina_logo.png",
+          duration: "Jan 2018 - April 2018",
+          location: "Germany, Chemnitz",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "I helped to create a database for documents (e.g. contracts). Another task was the input of data (e.g. tool condition) into a database.",
           color: "#ee3c26",
         },
         {
           title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
+          company: "Sozialamt Chemnitz",
+          company_url: "https://www.chemnitz.de/",
+          logo_path: "chemnitz_logo.png",
+          duration: "Aug 2017 - Nov 2017",
+          location: "Germany, Chemnitz",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+            "My duties were mainly archiving files, creating repair orders, processing medical expenses, and compiling accommodation statistics",
           color: "#0071C5",
         },
       ],
@@ -274,7 +269,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -283,15 +278,13 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "hot nick.png",
-    description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+    description: "I can be reached via e-mail or mobile phone.",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    subtitle: "Nixenweg 4, 09224 Chemnitz,  Germany",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/PTGvBNVG7FL9qDDW6",
   },
   phoneSection: {
     title: "Phone Number",
